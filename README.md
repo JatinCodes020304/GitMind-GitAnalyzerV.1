@@ -1,7 +1,8 @@
 # GitMind AI
 
 Public GitHub profile analysis with optional Gemini summaries. This application has no authentication and uses per-instance rate limiting.
-
+## Live Link 
+https://gitmindgitapp.vercel.app/
 ## Run locally
 
 Requires Java 21, Maven, Node 22, and PostgreSQL. Start PostgreSQL with a `gitmind` database, then run `mvn spring-boot:run` in `backend` and `npm ci && npm run dev` in `app`. The frontend opens on port 3000 and proxies `/api` to port 8080. Database credentials can be set with `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, and `SPRING_DATASOURCE_PASSWORD`.
